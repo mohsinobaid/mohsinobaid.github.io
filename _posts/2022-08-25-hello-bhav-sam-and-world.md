@@ -9,3 +9,5 @@ tags: []
 ---
 Here it is. Took 90 minutes to set this up.
 Expect a new post to be up by Wednesday August 31st 23:59.
+
+I've got an idea
