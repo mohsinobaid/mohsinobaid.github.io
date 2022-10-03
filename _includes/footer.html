@@ -115,7 +115,8 @@
 </script>
 
 
-<!-- Google Analytics -->
+<!-- Google Analytics
+<!--
 {% if site.ga_track_id %}
 <script>
     // dynamic User by Hux
@@ -134,7 +135,7 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
-
+-->
 
 <!-- Baidu Tongji -->
 {% if site.ba_track_id %}
@@ -159,7 +160,7 @@
 <script type="text/javascript">
     function generateCatalog(selector) {
 
-        // interop with multilangual 
+        // interop with multilangual
         if ('{{ page.multilingual }}' == 'true') {
             _containerSelector = 'div.post-container.active'
         } else {
@@ -252,7 +253,7 @@
             $en.style.display = "none";
             $en.classList.remove("active");
         }
-        // interop with catalog 
+        // interop with catalog
         generateCatalog(".catalog-body");
     }
 
@@ -289,7 +290,7 @@
         noResultsText: 'No results',
         limit: 50,
         fuzzy: false,
-        // a hack to get escaped subtitle unescaped. for some reason, 
+        // a hack to get escaped subtitle unescaped. for some reason,
         // post.subtitle w/o escape filter nuke entire search.
         templateMiddleware: function (prop, value, template) {
             if (prop === 'subtitle' || prop === 'title') {
@@ -321,7 +322,7 @@
                 $searchClose.on('click', function (e) {
                     e.preventDefault();
                     $searchPage.removeClass('search-active');
-                    $body.attr('class', prevClasses);  // from closure 
+                    $body.attr('class', prevClasses);  // from closure
                 });
                 $searchInput.focus();
             }
