@@ -7,6 +7,7 @@ author: "Moss"
 header-img: "img/reddit_background_2.jpg"
 mathjax: true
 tags: []
+comments: true
 ---
 
 <h1>Latent Dirichlet allocation (LDA) on Reddit Data</h1>
