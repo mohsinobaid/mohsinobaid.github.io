@@ -1,7 +1,7 @@
 ---
 #layout: page
 #layout: external
-title: Projects
+title: Old Project Page
 #permalink: http://www.mohsinobaid.com
 #external_url: http://www.mohsinobaid.com
 #redirect_to: http://www.mohsinobaid.com
